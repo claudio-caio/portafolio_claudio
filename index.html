@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Portafolio</title>
+</head>
+<body>
+    <!--Menu Encabezado-->
+    <div class="encabezado__contenido">
+        <header>
+            <div class="logo">
+                <a href="#">Caio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--Menu Encabezado End-->
+
+    <!--Section Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenedor__banner">
+            <div class="contenedor__banner--img">
+                <img src="img/perfil.jpg" alt="">
+            </div>
+            <h1>Claudio Tomadin</h1>
+            <h2>Progamador Front-End y Tecnico Electromecanico</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--Section Inicio End-->
+
+    <!--Seccion Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido__sobremi">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Claudio Tomadin</span> un apasionado programador front-end y técnico electromecánico con experiencia en crear soluciones innovadoras y eficientes en el ámbito del desarrollo web y el mantenimiento técnico. Con un enfoque en la optimización de la experiencia del usuario, domino tecnologías como HTML, CSS, JavaScript y frameworks modernos para desarrollar interfaces atractivas y funcionales.</p>
+            <p>Mi experiencia como técnico electromecánico me ha permitido combinar habilidades técnicas y prácticas, destacándome en la resolución de problemas y el trabajo en equipo. Mi capacidad para adaptarme a los desafíos y aprender rápidamente nuevas herramientas y tecnologías me convierte en un profesional versátil, listo para enfrentar proyectos de alta complejidad.</p>
+            <p>Estoy comprometido en aportar valor a través de soluciones tecnológicas de vanguardia, buscando siempre mejorar la eficiencia y la funcionalidad en cada uno de los proyectos que desarrollo.</p>
+        </div>
+        <div class="fila">
+            <!--Datos Personales-->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Teléfono</strong>
+                        +54 9 362 413-8360
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        caioalegres@gmail.com
+                    </li>
+                    <li>
+                        <strong>gitHub</strong>
+                        https://github.com/claudio-caio
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Chaco, Recistencia, Argentina 
+                    </li>
+                    <li>
+                        <strong>xzxzxzx</strong>
+                        zxzxzxzx
+                    </li>
+                    <li>
+                        <strong>xzxzxzxzx</strong>
+                        xsxssxsxs
+                    </li>
+                </ul>
+            </div>
+            <!--Datos Personales End-->
+
+            <!--Intereses-->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor__interese">
+                    <div class="interes">
+                        <i class="fa-solid fa-gamepad"></i>
+                        <span>JUEGOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>MUSICA</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>DEPORTE</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>LIBROS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-car"></i>
+                        <span>AUTOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>VIAJAR</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-camera"></i>
+                        <span>FOTOS</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-brands fa-windows"></i>
+                        <span>WINDOWS</span>
+                    </div>
+                </div>
+            </div>
+            <!--Intereses End-->
+        </div>
+        <button>
+            Descargar CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+        </button>
+    </section>
+    <!--Seccion Sobre Mi End-->
+
+    <!--Seccion Skills-->
+    <section class="skills" id="skills">
+        <div class="contenido__skills">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Tecnicas de Skill-->
+                <div class="col">
+                    <h3>Habilidades técnicas</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Habilidades profesionales-->
+                <div class="col">
+                    <h3>Habilidades profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion Skills End-->
+
+    <!--Seccio Curriculum-->
+    <section class="curriculum" id="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+    
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Emprendimiento, Agilidad y Profesional</h4>
+                        <span class="casa">Alura-Latam</span>
+                        <span class="fecha">julio/2024 - septiembre/2024</span>
+                        <p>Esta formación es una completa guía de aprendizaje para mejorar la relación que creas con tus expectativas profesionales. En primer lugar, aprenderás a identificar las demandas del mercado, y así dirigir tus esfuerzos hacia la consecución de ese codiciado puesto de trabajo.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Principiante en Programación</h4>
+                        <span class="casa">Alura-Latam</span>
+                        <span class="fecha">junio/2024 - agosto/2024</span>
+                        <p>En esta formación lo primero que aprenderás será sobre Lógica de Programación, que es la base de cualquier carrera o profesión relacionada con tecnología. Aprender la lógica de programación es fundamental para el desarrollo de software porque proporciona las bases para crear, analizar y resolver problemas computacionales de una manera estructurada y eficiente.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnico Electromecánico</h4>
+                        <span class="casa">E.E.T 619 DE V-Ocampo</span>
+                        <span class="fecha">2007 - 2014</span>
+                        <p>La educación técnica en electromecánica capacita en instalación, mantenimiento y reparación de sistemas eléctricos y mecánicos, con enfoque en prácticas y seguridad. Los egresados pueden trabajar en diversas industrias.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Camarero y Barman</h4>
+                        <span class="casa">Los Abuelos y Boliches Locales</span>
+                        <span class="fecha">2014 - 2020</span>
+                        <p>El camarero atiende a los clientes, toma pedidos, sirve comidas y bebidas, y asegura un buen servicio en mesa. El barman prepara y sirve bebidas, gestiona el inventario del bar y mantiene el área de trabajo limpia y organizada. Ambos roles buscan ofrecer una experiencia agradable al cliente.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ayudante de Electricista</h4>
+                        <span class="casa">Electromecánico Independiente</span>
+                        <span class="fecha">2013 - 2018</span>
+                        <p>El ayudante de electricista asiste en la instalación, mantenimiento y reparación de sistemas eléctricos. Colabora con el electricista principal en tareas como cableado, montaje de equipos y pruebas de seguridad, siguiendo normas técnicas y de seguridad.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Comerciante y Repositor</h4>
+                        <span class="casa">Minimercado Maclauni</span>
+                        <span class="fecha">2006 - 2014</span>
+                        <p>El trabajo en un minimercado implica la gestión de inventario, atención al cliente, manejo de caja, reposición de productos y control de fechas de vencimiento. Los empleados deben mantener el orden y limpieza, realizar ventas, y a menudo ayudan en la recepción de mercadería y tareas administrativas básicas. El objetivo es asegurar una experiencia de compra fluida y eficiente para los clientes.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    <!--Seccio Curriculum End-->
+
+    <!--Seccion Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenedor__portfolio">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/Encriptador.png" alt="">
+                    <div class="overlay">
+                        <h3>Coificador Alura-Latam</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Jornada.png" alt="">
+                    <div class="overlay">
+                        <h3>Desafio de Jornada</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/tekainter.png" alt="">
+                    <div class="overlay">
+                        <h3>Tekainter</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3>Desafio Jornada</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="" alt="">
+                    <div class="overlay">
+                        <h3>Ejercicio de Python</h3>
+                        <p>Ejercicios</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion Portfolio End-->
+
+    <!--Seccion Contacto-->
+    <section id="contacto" class="contacto">
+        <div class="contenedor__contacto">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--Imagen-->
+                <div>
+                    <img class="img" src="img/contacto.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Seccion Contacto End-->
+
+    <!--Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+    <!--Footer End-->
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
