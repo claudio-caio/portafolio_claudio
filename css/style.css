@@ -880,7 +880,7 @@ footer .redes a:hover {
 }
 
 
-@media screen and (max-width:361px) {
+@media screen and (max-width: 361px) {
   .encabezado__contenido {
     height: 100px;
   }
@@ -901,13 +901,14 @@ footer .redes a:hover {
     background-color: var(--color-azul-yankees);
     width: 30%;
     font-size: 30px;
+  } /* Esta llave estaba faltando */
 
   .fa-solid, .fas {
     font-size: 30px;
   }
   
   .inicio {
-  height: 1050px;
+    height: 1050px;
   }
   
   .inicio .contenedor__banner {
@@ -915,7 +916,7 @@ footer .redes a:hover {
   }
 
   .inicio .contenedor__banner h1 {
-   font-size: 80px;
+    font-size: 80px;
   }
 
   .inicio .contenedor__banner h2 {
@@ -937,7 +938,6 @@ footer .redes a:hover {
   .sobremi .contenido__sobremi p {
     font-size: 50px;
     line-height: normal;
-
   }
 
   .fila {
@@ -949,13 +949,13 @@ footer .redes a:hover {
   .sobremi .fila .col h3 {
     font-size: 50px;
     padding-top: 15px;
-
   }
 
   .sobremi .fila .col ul {
     list-style: none;
     font-size: 45px;
   }
+
   .sobremi .fila .col ul li strong {
     display: inline-block;
     width: 372px;
@@ -986,9 +986,10 @@ footer .redes a:hover {
     font-size: 60px;
   }
 
-  .skills .skill > span  {
+  .skills .skill > span {
     font-size: 50px;
   }
+  
   .skills .skill .barra-skill span {
     font-size: 35px;
     width: 50px;
@@ -1021,7 +1022,7 @@ footer .redes a:hover {
   }
 
   .curriculum h2 {
-    font-size: 90px
+    font-size: 90px;
   }
 
   .curriculum .fila .col {
@@ -1061,7 +1062,6 @@ footer .redes a:hover {
   .contacto .col input, .contacto .col textarea {
     font-size: 50px;
   }
-
 
   .contacto button {
     font-size: 50px;
