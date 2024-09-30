@@ -36,8 +36,8 @@ Una solución personalizada para la gestión de inventarios de una empresa de ma
 Si tienes algún proyecto en mente o simplemente quieres ponerte en contacto conmigo, puedes hacerlo a través de los siguientes medios:
 
 - Email: caioalegres@gmail.com
-- LinkedIn: [linkedin.com/in/claudiotomadin]()
-- GitHub: [github.com/claudiotomadin]()
+- LinkedIn: [linkedin.com/in/claudiotomadin]
+- GitHub: [github.com/claudiotomadin]
 
 Gracias por visitar mi portfolio. ¡Espero que te gusten mis proyectos!
 # Claudio Tomadin - Portfolio
@@ -59,13 +59,13 @@ Soy un entusiasta del desarrollo web con un enfoque en crear aplicaciones y siti
 
 ## 📂 Proyectos destacados
 
-### [Proyecto 1: Sitio Web de Portafolio Personal]()
+### [Proyecto 1: Sitio Web de Portafolio Personal]
 Un sitio web profesional desarrollado para mostrar mis habilidades y proyectos. Construido con **HTML**, **CSS** y **JavaScript**, este proyecto demuestra mi capacidad para crear interfaces de usuario elegantes y funcionales.
 
-### [Proyecto 2: Aplicación de Tienda Online]()
+### [Proyecto 2: Aplicación de Tienda Online]
 Desarrollo de una aplicación de comercio electrónico utilizando **React** y **Bootstrap**. La aplicación incluye funcionalidad de carrito de compras, filtrado de productos y manejo de estados con **Redux**.
 
-### [Proyecto 3: Sistema de Gestión de Inventario]()
+### [Proyecto 3: Sistema de Gestión de Inventario]
 Una solución personalizada para la gestión de inventarios de una empresa de manufactura. Este proyecto integra tanto mi experiencia en desarrollo de software como mis habilidades técnicas en electromecánica.
 
 ## 🌟 Educación y certificaciones
@@ -78,8 +78,8 @@ Una solución personalizada para la gestión de inventarios de una empresa de ma
 Si tienes algún proyecto en mente o simplemente quieres ponerte en contacto conmigo, puedes hacerlo a través de los siguientes medios:
 
 - Email: claudiotomadin@email.com
-- LinkedIn: [linkedin.com/in/claudiotomadin]()
-- GitHub: [github.com/claudiotomadin]()
+- LinkedIn: [linkedin.com/in/claudiotomadin]
+- GitHub: [github.com/claudiotomadin]
 
 Gracias por visitar mi portfolio. ¡Espero que te gusten mis proyectos!
 
